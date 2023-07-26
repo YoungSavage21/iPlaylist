@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* color: white; */
+    
+}
+p, label, a {
+    color: white;
+}
+
+body {
+    background-color: #1a1a1d;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+}
+.checklist{
+    padding-left: 10px;
+    margin: 16px 0 0 0;
+}
+
+.checklist p{
+    margin-bottom: 0;
+}
+
+h1{
+    color: #c3073f;
+    font-size: 28px;
+    margin-bottom: 42px;
+}
+
+h2{
+    margin: 0;
+    padding: 25px 0;
+    font-size: 22px;
+    border-bottom: 1px solid #ebebeb;
+    color: white;
+    font-weight: lighter;
+}
+
+button{
+    background-color: #6f2232;
+    font-weight: bold;
+    padding: 10px 50px;
+    border: none;
+    color: white;
+}
+
+.search{
+    padding: 7px 30px;
+    margin-left: 3px;
+}
+
+button:hover{
+    background-color: #b73737;
+}
+
+.link{
+    background-color: #6f2232;
+    font-weight: bold;
+    padding: 7px 30px;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    background-color: #b73737;
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    margin: 100px auto 0 auto;
+    background-color: #131315;
+    padding: 25px 0 50px 0;
+    border-radius: 16px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info{
+    display:flex;
+    width: 280px;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+input{
+    color: black;
+    padding: 5px 10px;
+    width: auto;
+    text-align: left;
+
+}
+.navtop {
+    background-color: #1a1a1d;
+    height: 60px;
+    width: 100%;
+    border: 0;
+}
+.navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+.navtop div h1, .navtop div a {
+    display: inline-flex;
+    align-items: center;
+}
+.navtop div h1 {
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #c3073f;
+    font-weight: bold;
+}
+.navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #c3073f;
+    font-weight: bold;
+}
+.navtop div a i, .navtop div h1 i {
+    padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+    color: #ecf0f6;
+}
+
+.content{
+    width: 1000px;
+    margin-top: 24px;
+}
+
+table{
+    color: white;
+    border: 1px solid #d3dae0;
+    width: 100%;
+    
+}
+
+td{
+    border-bottom: 1px solid #d3dae0; 
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.btn{
+    background-color: #6f2232;
+    padding: 12px 16px;
+    margin-right: 3px;
+    border-radius: 50%;
+}
+.btn:hover{
+    background-color: #b73737;
+}
+
+.btn i{
+    font-size: 14px;
+}
+
+.top{
+    color: #767779;
+    font-weight: bold;
+    text-align: left;
+    background-color: white;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file {
+    background-color: #6f2232;
+    display: inline-block;
+    padding: 8px 12px;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+}
+
+.file:hover{
+    background-color: #b73737;
+}
+
+.addsong{
+    display: flex;
+   gap: 10px;
+   width: 100%;
+  
+    
+}
+
+
+.info2{
+    display:flex;
+    width: 280px;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.info2 audio{
+    width: 100%;
+ 
+}
+
+.login a {
+    margin: 20px 0;
+    align-self: left;
+    justify-self: left ;
+}
